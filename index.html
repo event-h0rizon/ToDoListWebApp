@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="title">To-do List</div>
+        <!-- <p>Create a task and assign a due date here.</p> -->
+        <div class="taskCreator">
+            <div class="inputTaskHolder">
+                <input type="text" value="" class="inputTask"
+                 placeholder="Enter your task">
+            </div>
+            <div class="inputDateTimeHolder">
+                <input type="date" class="inputDateTime">
+            </div>
+            <div class="createTaskHolder">
+                <button onclick="createTask();" class="createTask">Add</button>
+            </div>
+        </div>
+        <!-- <p id="manageTask">Manage your tasks here.</p> -->
+        <div class="taskManagerHolder">
+            <div class="labelHolder">
+                <div class="labels">Task</div>
+                <div class="labels">Date</div>
+                <div class="labels"></div>
+            </div>
+            <div class="taskManager">
+            
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

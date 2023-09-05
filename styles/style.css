@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: teal;
+    color: white;
+}
+.title{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+.taskCreator{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.mainContainer p{
+    margin-left: 10px;
+}
+p#manageTask{
+    margin-top: 20px;
+}
+.inputDateTimeHolder, .inputTaskHolder, .createTakHolder{
+    margin-right: 20px;
+}
+
+.inputTask, .inputDateTime{
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.createTask{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(55, 218, 55);
+}
+.taskManager{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+
+}
+.taskManagerHolder{
+    margin: 5px;
+    border-radius: 8px;
+    
+}
+.labelHolder, .taskItemHolder{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.labels, .taskITEM{
+    width: 33%;
+}
+.deleteITEM {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    
+
+}
